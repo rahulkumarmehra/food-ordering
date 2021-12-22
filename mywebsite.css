@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    margin-top: -18px;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    padding: 0px;
+}
+.ul{
+    display: flex;
+    flex-direction: row;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+li{
+    list-style: none;
+    padding: 10px;
+}
+li:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.description{
+    margin: 100px auto;
+    width: 900px;
+    text-align: center;
+}
+.start_button{
+    background-color: black;
+    color: white;
+}
+.start_button:hover{
+    background-color: white;
+    color: black;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    border: 2px black;
+}
+.card_item{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: rgba(128, 255, 0, 0.336);
+}
